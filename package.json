@@ -1,0 +1,20 @@
+{
+  "name": "todo-list-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL API for a To-Do List using AWS Lambda and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.0.0",
+    "graphql": "^15.5.0",
+    "mongodb": "^4.1.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "mongodb-memory-server": "^7.0.0"
+  }
+}
